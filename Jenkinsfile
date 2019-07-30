@@ -1,2 +1,2 @@
-@Library('jenkins-library@directory_support') _
+@Library('jenkins-library') _
 dockerBuild()
