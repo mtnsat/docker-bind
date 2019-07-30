@@ -1,4 +1,5 @@
 ---
 imageName: bind_dns
 deployStaging: false
+dockerDir: container
 # stagingHost:
