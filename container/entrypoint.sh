@@ -7,4 +7,4 @@ chmod -R 750 /etc/bind
 
 sync
 # Run in foreground and log to STDERR (console):
-exec /usr/sbin/named -c /etc/bind/named.conf -g -u named $OPTIONS
+/usr/sbin/named -c /etc/bind/named.conf -g -u named $OPTIONS
