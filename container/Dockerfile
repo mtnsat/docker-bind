@@ -27,4 +27,4 @@ VOLUME ["/etc/bind"]
 VOLUME ["/var/cache/bind"]
 
 COPY entrypoint.sh /
-ENTRYPOINT ["/entrypoint.sh"]
+# ENTRYPOINT ["/entrypoint.sh"]
